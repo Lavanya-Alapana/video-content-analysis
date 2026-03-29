@@ -1,0 +1,29 @@
+{
+  "name": "video-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "worker": "node src/worker.js",
+    "seed": "node src/scripts/seedUsers.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "socket.io": "^4.6.1",
+    "bullmq": "^5.0.0",
+    "ioredis": "^5.3.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express-validator": "^7.0.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "@google/generative-ai": "^0.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
