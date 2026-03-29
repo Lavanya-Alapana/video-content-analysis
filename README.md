@@ -199,8 +199,6 @@ GEMINI_API_KEY=your-gemini-api-key
 
 MIT
 
-**Built with enterprise patterns for production-ready deployment.**
-
 ---
 
 ## 📡 API Documentation
@@ -672,5 +670,7 @@ const streamUrl = `http://localhost:5000/api/videos/${video._id}/stream?token=${
   updatedAt: Date
 }
 ```
-#   v i d e o - c o n t e n t - a n a l y s i s  
- 
+
+---
+
+**Built with enterprise patterns for production-ready deployment.**
