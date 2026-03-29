@@ -45,7 +45,7 @@ REDIS_URL=redis://localhost:6379
 JWT_SECRET=your-super-secret-jwt-key-change-in-production
 PORT=5000
 NODE_ENV=development
-GEMINI_API_KEY=AIzaSyD7PjlCCuYRa_3-18-9abM5hTEOppTIA0U
+GEMINI_API_KEY= 
 "@ | Out-File -FilePath .env -Encoding utf8
     Write-Host "✅ .env file created" -ForegroundColor Green
 } else {
